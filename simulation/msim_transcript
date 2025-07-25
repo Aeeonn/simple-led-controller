@@ -1,0 +1,74 @@
+vsim -gui -l msim_transcript work.tb_simpleledcontrol
+# vsim -gui -l msim_transcript work.tb_simpleledcontrol 
+# Start time: 11:02:45 on Jul 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: C:/intelFPGA_lite/Projects/My projects/Simple LED Control/tb/tb_simpleledcontrol.v(9): Module 'simple_led_control' is not defined.
+#  For instance 'dut' at path 'tb_simpleledcontrol'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 11:02:49 on Jul 23,2025, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 6
+vsim work.tb_simpleledcontrol
+# vsim work.tb_simpleledcontrol 
+# Start time: 11:03:01 on Jul 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: C:/intelFPGA_lite/Projects/My projects/Simple LED Control/tb/tb_simpleledcontrol.v(9): Module 'simple_led_control' is not defined.
+#  For instance 'dut' at path 'tb_simpleledcontrol'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 11:03:05 on Jul 23,2025, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0
+vsim work.tb_simpleledcontrol
+# vsim work.tb_simpleledcontrol 
+# Start time: 11:03:17 on Jul 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: C:/intelFPGA_lite/Projects/My projects/Simple LED Control/tb/tb_simpleledcontrol.v(9): Module 'simple_led_control' is not defined.
+#  For instance 'dut' at path 'tb_simpleledcontrol'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 11:03:21 on Jul 23,2025, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/intelFPGA_lite/Projects/My projects/Simple LED Control/tb/tb_simpleledcontrol.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 11:03:40 on Jul 23,2025
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/intelFPGA_lite/Projects/My projects/Simple LED Control/tb/tb_simpleledcontrol.v 
+# -- Compiling module tb_simpleledcontrol
+# 
+# Top level modules:
+# 	tb_simpleledcontrol
+# End time: 11:03:40 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_simpleledcontrol
+# vsim work.tb_simpleledcontrol 
+# Start time: 11:03:43 on Jul 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_simpleledcontrol(fast)
+add wave -position end sim:/tb_simpleledcontrol/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/*'.
+add wave -position end sim:/tb_simpleledcontrol/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/*'.
+add wave -position end sim:/tb_simpleledcontrol/#INITIAL#16/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/#INITIAL#16/*'.
+add wave -position end sim:/tb_simpleledcontrol/#INITIAL#27/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/#INITIAL#27/*'.
+add wave -position end sim:/tb_simpleledcontrol/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/*'.
+# Drag/Drop error expanding instance path: ** UI-Msg (Error): (vish-4014) No objects found matching 'sim:/tb_simpleledcontrol/#INITIAL#27/*'.
+# 
+add wave -position end sim:/tb_simpleledcontrol/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/*'.
+add wave -position end sim:/tb_simpleledcontrol/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/*'.
+add wave -position insertpoint sim:/tb_simpleledcontrol/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/*'.
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/tb_simpleledcontrol/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_simpleledcontrol/*'.
+# Drag/Drop error expanding instance path: ** UI-Msg (Error): (vish-4014) No objects found matching 'sim:/tb_simpleledcontrol/#INITIAL#27/*'.
+# 
+# End time: 11:10:31 on Jul 23,2025, Elapsed time: 0:06:48
+# Errors: 0, Warnings: 0

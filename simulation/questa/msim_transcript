@@ -1,0 +1,85 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do simpleledcontrol_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL {C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL/simpleledcontrol.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:47:57 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL" C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL/simpleledcontrol.v 
+# -- Compiling module simpleledcontrol
+# 
+# Top level modules:
+# 	simpleledcontrol
+# End time: 17:47:57 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb {C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:47:58 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb" C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v 
+# -- Compiling module tb_simpleledcontrol
+# 
+# Top level modules:
+# 	tb_simpleledcontrol
+# End time: 17:47:58 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_simpleledcontrol
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_simpleledcontrol 
+# Start time: 17:47:58 on Jul 23,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_simpleledcontrol(fast)
+# Loading work.simpleledcontrol(fast)
+# 
+# do C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/simulation/run_simpleled.do
+# add wave *
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# Create VCD for GTKWave
+# Create directory for VCD if not exists
+# if {![file isdirectory "./vcd"]} {
+#     file mkdir "./vcd"
+# }
+# 
+# 
+# vcd file ./vcd/tb_simpleledcontrol.vcd;
+# vcd add -r /tb_simpleledcontrol/*;
+# vcd add -r /tb_simpleledcontrol/dut/*;
+# onfinish stop;
+# run -all;
+# Time=0 | SW=0000000000 | BTN=0 | LED=0000000000
+# Time=50000 | SW=1111111111 | BTN=0 | LED=1111111111
+# Time=100000 | SW=1111111111 | BTN=1 | LED=0000000000
+# Time=150000 | SW=1111111111 | BTN=0 | LED=1111111111
+# Time=200000 | SW=1010101010 | BTN=0 | LED=1010101010
+# Time=250000 | SW=1010101010 | BTN=1 | LED=0101010101
+# ** Note: $finish    : C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v(23)
+#    Time: 300 ns  Iteration: 0  Instance: /tb_simpleledcontrol
+# Break in Module tb_simpleledcontrol at C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v line 23
+# 
+# Causality operation skipped due to absence of debug database file

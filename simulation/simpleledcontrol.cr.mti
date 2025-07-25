@@ -1,0 +1,15 @@
+{C:/intelFPGA_lite/Projects/My projects/Simple LED Control/RTL/simpleledcontrol.v} {1 {vlog -work work -vopt -stats=none {C:/intelFPGA_lite/Projects/My projects/Simple LED Control/RTL/simpleledcontrol.v}
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module simpleledcontrol
+
+Top level modules:
+	simpleledcontrol
+
+} {} {}} {C:/intelFPGA_lite/Projects/My projects/Simple LED Control/tb/tb_simpleledcontrol.v} {1 {vlog -work work -vopt -stats=none {C:/intelFPGA_lite/Projects/My projects/Simple LED Control/tb/tb_simpleledcontrol.v}
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tb_simpleledcontrol
+
+Top level modules:
+	tb_simpleledcontrol
+
+} {} {}}

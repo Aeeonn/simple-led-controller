@@ -1,0 +1,73 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/simulation/questa
+T_opt
+!s110 1753307281
+VZNUQG]SmG`Ac^F1IM9_ZE1
+04 19 4 work tb_simpleledcontrol fast 0
+=1-089df4a7f4ae-68815890-2a6-7344
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vsimpleledcontrol
+2C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL/simpleledcontrol.v
+!s110 1753307277
+!i10b 1
+!s100 8GEL6>a1X29fI2;<m`g2e2
+IX:M^gWVd3_;oCK5V?QTYR0
+R1
+w1753223704
+8C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL/simpleledcontrol.v
+FC:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL/simpleledcontrol.v
+!i122 0
+L0 1 12
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1753307277.000000
+!s107 C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL/simpleledcontrol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL|C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL/simpleledcontrol.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_simpleledcontrol
+2C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v
+!s110 1753307278
+!i10b 1
+!s100 ]F2H:Cn3>W^BzC@kQQ@f:2
+IhgoR0Gzl>Uedf5X9Tia1]0
+R1
+w1753282996
+8C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v
+FC:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v
+!i122 1
+L0 2 30
+R3
+R4
+r1
+!s85 0
+31
+!s108 1753307278.000000
+!s107 C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb|C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb/tb_simpleledcontrol.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/Projects/My_projects/Simple_LED_Control/tb -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
